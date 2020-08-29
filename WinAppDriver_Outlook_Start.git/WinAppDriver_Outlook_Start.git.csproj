@@ -73,6 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NewMail.cs" />
     <Compile Include="OutlookSession.cs" />
     <Compile Include="Outlook_Open.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

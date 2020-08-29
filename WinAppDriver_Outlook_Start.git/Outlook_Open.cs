@@ -7,9 +7,9 @@ namespace WinAppDriver_Outlook_Start
     public class OutlookStart: OutlookSession
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Outlook_Start()
         {
-            
+            Assert.AreEqual("受信トレイ - nayuki@live.jp - Microsoft Outlook", session.Title, "Expected:受信トレイ - nayuki@live.jp - Microsoft Outlook" + "actual:" + session.Title);
         }
 
         [ClassInitialize]
